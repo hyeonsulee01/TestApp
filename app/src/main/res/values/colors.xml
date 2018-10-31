@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4F6228</color>
+    <color name="colorPrimaryDark">#00ffffff</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="primary_material_light">#4f6228</color>
+    <color name="primary_dark_material_light">#757575</color>
+    <color name="background_material_light">#ffffff</color>
+    <color name="Gallery_golf">#00ffffff</color>
+    <color name="accent_material_light">#000000</color>
+    <color name="text_color_primary">#000000</color>
+    <color name="TestApp_Main">#00664d</color>
+    <color name="TestApp_BG_White">#ffffff</color>
+    <color name="testAPP_transparent">#00ffffff</color>
+    <color name="testApp_colorPrimaryDark">#003125</color>
+    <color name="testAPP_colorAccent">#000000</color>
+    <color name="border_color">#000000</color>
+    <color name="background_color">#FFFFFF</color>
+</resources>

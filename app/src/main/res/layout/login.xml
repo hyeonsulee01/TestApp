@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="148dp">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/user_id"
+        android:hint="ID"
+        android:inputType="textUri"
+        android:layout_marginTop="0dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/user_password"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:layout_below="@+id/user_id"
+        android:layout_alignLeft="@+id/user_id"/>
+
+    <CheckBox
+        android:text="자동 로그인"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:id="@+id/autoLogin"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginBtn"
+        android:text="로그인"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/autoLogin"
+        android:layout_centerHorizontal="true"
+        android:enabled="true"/>
+
+</RelativeLayout>

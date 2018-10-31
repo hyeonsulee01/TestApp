@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_1"
+            android:icon="@drawable/ic_user_account"
+            android:checked="false"
+            android:checkable="true"
+            android:title="마이페이지" />
+        <item
+            android:id="@+id/menu_2"
+            android:icon="@drawable/ic_reservation"
+            android:checked="false"
+            android:checkable="true"
+            android:title="레슨예약" />
+        <item
+            android:id="@+id/menu_3"
+            android:icon="@drawable/ic_sceen_view"
+            android:checked="false"
+            android:checkable="true"
+            android:title="타석정보" />
+        <item
+            android:id="@+id/menu_4"
+            android:icon="@drawable/ic_notice"
+            android:checked="false"
+            android:checkable="true"
+            android:title="공지사항" />
+    </group>
+
+    <item android:title="Gallery Golf Academy">
+        <menu>
+            <item
+                android:id="@+id/menu_5"
+                android:icon="@drawable/ic_history"
+                android:checked="false"
+                android:checkable="true"
+                android:title="연혁" />
+            <item
+                android:id="@+id/menu_6"
+                android:icon="@drawable/ic_coach_1"
+                android:checked="false"
+                android:checkable="true"
+                android:title="코치진" />
+
+        </menu>
+    </item>
+
+</menu>
